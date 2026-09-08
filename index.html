@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Makes the website responsive on phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login Portal</title>
+
+    <!-- Connect HTML to CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <h1>Welcome Back</h1>
+
+        <p class="subtitle">Please login to your account</p>
+
+        <form action="dashboard.html" method="get">
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+            </div>
+
+            <!-- Password -->
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input 
+                    type="password" 
+                    id="password" 
+                    placeholder="Enter your password"
+                    required
+                >
+            </div>
+
+            <!-- Remember me and forgot password -->
+            <div class="form-options">
+
+                <label class="remember">
+                    <input type="checkbox">
+                    Remember me
+                </label>
+
+                <a href="#">Forgot password?</a>
+
+            </div>
+
+            <!-- Login button -->
+            <button type="submit">Login</button>
+
+        </form>
+
+        <!-- Sign up -->
+        <p class="signup">
+            Don't have an account?
+            <a href="#">Sign up</a>
+        </p>
+
+    </div>
+<div class="circle1"></div>
+<div class="circle2"></div>
+</body>
+</html>
+
